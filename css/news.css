@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+.company-logo img {
+    height: 50px;
+}
+
+.nav-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+.nav-links li:hover {
+    text-decoration: underline;
+}
+
+.search-bar {
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.news-input {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.search-button {
+    padding: 5px 10px;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    margin: 10px;
+    width: calc(33% - 20px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card-header img {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.news-title {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.news-source {
+    font-size: 0.8em;
+    color: #555;
+}
+
+.news-desc {
+    font-size: 1em;
+    margin-top: 10px;
+}
